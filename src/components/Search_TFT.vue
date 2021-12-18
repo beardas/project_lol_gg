@@ -39,7 +39,7 @@ export default defineComponent({
   },
   data () {
     return {
-      apiKey : 'RGAPI-33e92a52-fa31-4ae9-904b-fdab4bc3e361',
+      apiKey : 'RGAPI-e57658ae-200c-491d-af20-b5705da7716c',
       summoner: {
         name: '',
         queueTypes: {
