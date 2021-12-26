@@ -48,6 +48,7 @@
 </template>
 
 <script lang="ts">
+/* eslint-disable */
 import { defineComponent } from 'vue';
 import Rank from '@/components/View_Rank.vue'; // @ is an alias to /src
 import Matches from '@/components/View_Matches.vue';
@@ -65,7 +66,7 @@ export default defineComponent({
 
   data (){
     return {
-      apiKey : 'RGAPI-33e92a52-fa31-4ae9-904b-fdab4bc3e361',
+      apiKey : 'RGAPI-e7de5b7b-2cbb-4730-9ba3-5efe1cde4f46',
       summoner: {
         name: '',
         ingame: '',
@@ -116,17 +117,15 @@ export default defineComponent({
 
       let id, account, puuid;
       let link = `https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/${name}?api_key=${this.apiKey}`;
-      let response = await fetch(`${link}`
+      let response = await fetch(`${link}` // cors정책 우회
       // , {
-        //   method: "GET",
+      //     method: "GET",
       //   mode: 'no-cors',
       //   credentials: 'omit',
       //   headers: {
-        //     'Content-Type': 'application/json',
+      //       'Content-Type': 'application/json',
       //     'Access-Control-Allow-Origin': '*'
       //   },
-        
-        
       // }
       );
 
@@ -226,7 +225,16 @@ export default defineComponent({
       // 추출한 ID로 인게임 정보 검색
       let ingame;
       let link = `https://kr.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/${id}?api_key=${api_key}`;
-      const response = await fetch(link);
+      const response = await fetch(link
+      , {
+          method: "GET",
+        mode: 'no-cors',
+        credentials: 'omit',
+        headers: {
+            'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*'
+        },
+      });
 
       if (response.ok) {
         const json = await response.json();

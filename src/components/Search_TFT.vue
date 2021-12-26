@@ -24,6 +24,7 @@
 </template>
 
 <script lang="ts">
+/* eslint-disable */
 import { defineComponent } from 'vue';
 import Rank from '@/components/View_Rank.vue'; // @ is an alias to /src
 import Matches from '@/components/View_Matches.vue';
@@ -39,7 +40,7 @@ export default defineComponent({
   },
   data () {
     return {
-      apiKey : 'RGAPI-33e92a52-fa31-4ae9-904b-fdab4bc3e361',
+      apiKey : 'RGAPI-e7de5b7b-2cbb-4730-9ba3-5efe1cde4f46',
       summoner: {
         name: '',
         queueTypes: {
@@ -76,8 +77,6 @@ export default defineComponent({
       //     'Content-Type': 'application/json',
       //     'Access-Control-Allow-Origin': '*'
       //   },
-        
-        
       // }
       );
 

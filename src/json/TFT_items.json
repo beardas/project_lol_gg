@@ -1,0 +1,122 @@
+{
+    "element_items" : [
+                        {"name" : "", "image" : ""},
+                        {"name" : "B.F.대검", "image" : "bf.png"},
+                        {"name" : "곡궁", "image" : "곡궁.png"},
+                        {"name" : "쇠사슬 조끼", "image" : "쇠갑옷.png"},
+                        {"name" : "음전자 망토", "image" : "망토.png"},
+                        {"name" : "쓸데없이 큰 지팡이", "image" : "쓸지.png"},
+                        {"name" : "여신의 눈물", "image" : "여눈.png"},
+                        {"name" : "거인의 허리띠", "image" : "자벨.png"},
+                        {"name" : "연습용 장갑", "image" : "장갑.png"},
+                        {"name" : "뒤집개", "image" : "뒤집개.png"}
+                      ],
+    "BF_items" : [
+                        {"name" : "B.F.대검", "image" : "bf.png"},
+                        {"name" : "죽음의 검", "image" : "죽검.png"},
+                        {"name" : "거인 학살자", "image" : "거학.png"},
+                        {"name" : "수호 천사", "image" : "가엔.png"},
+                        {"name" : "피바라기", "image" : "피바.png"},
+                        {"name" : "마법공학 총검", "image" : "총검.png"},
+                        {"name" : "쇼진의 창", "image" : "쇼진.png"},
+                        {"name" : "지크의 전령", "image" : "지크.png"},
+                        {"name" : "무한의 대검", "image" : "무대.png"},
+                        {"name" : "제국 상징", "image" : "제국.png"}
+                      ],
+    "Bow_items" : [
+                        {"name" : "곡궁", "image" : "곡궁.png"},
+                        {"name" : "거인 학살자", "image" : "거학.png"},
+                        {"name" : "고속 연사포", "image" : "고연포.png"},
+                        {"name" : "거인의 결의", "image" : "거결.png"},
+                        {"name" : "루난의 허리케인", "image" : "루난.png"},
+                        {"name" : "구인수의 격노검", "image" : "구인수.png"},
+                        {"name" : "스테틱의 단검", "image" : "스태틱.png"},
+                        {"name" : "즈롯 차원문", "image" : "즈롯.png"},
+                        {"name" : "최후의 속삭임", "image" : "라위.png"},
+                        {"name" : "도전자 상징", "image" : "도전자.png"}
+                      ],
+    "Vest_items" : [
+                        {"name" : "쇠사슬 조끼", "image" : "쇠갑옷.png"},
+                        {"name" : "수호 천사", "image" : "가엔.png"},
+                        {"name" : "거인의 결의", "image" : "거결.png"},
+                        {"name" : "가시 갑옷", "image" : "가갑.png"},
+                        {"name" : "가고일의 돌갑옷", "image" : "가고일.png"},
+                        {"name" : "강철의 솔라리 팬던트", "image" : "솔라리.png"},
+                        {"name" : "얼어붙은 심장", "image" : "얼심.png"},
+                        {"name" : "태양 불꽃 망토", "image" : "태불망.png"},
+                        {"name" : "침묵의 장막", "image" : "침장.png"},
+                        {"name" : "범죄조직 상징", "image" : "범죄조직.png"}
+                      ],
+    "Cloak_items" : [
+                        {"name" : "음전자 망토", "image" : "망토.png"},
+                        {"name" : "피바라기", "image" : "피바.png"},
+                        {"name" : "루난의 허리케인", "image" : "루난.png"},
+                        {"name" : "가고일의 돌갑옷", "image" : "가고일.png"},
+                        {"name" : "용의 발톱", "image" : "용발.png"},
+                        {"name" : "이온 충격기", "image" : "이온.png"},
+                        {"name" : "힘의 성배", "image" : "성배.png"},
+                        {"name" : "서풍", "image" : "서풍.png"},
+                        {"name" : "수은", "image" : "수은.png"},
+                        {"name" : "돌연변이 상징", "image" : "돌연변이.png"}
+                      ],
+    "Rod_items" : [
+                        {"name" : "쓸데없이 큰 지팡이", "image" : "쓸지.png"},
+                        {"name" : "마법공학 총검", "image" : "총검.png"},
+                        {"name" : "구인수의 격노검", "image" : "구인수.png"},
+                        {"name" : "강철의 솔라리 팬던트", "image" : "솔라리.png"},
+                        {"name" : "이온 충격기", "image" : "이온.png"},
+                        {"name" : "라바돈의 죽음 모자", "image" : "데캡.png"},
+                        {"name" : "대천사의 지팡이", "image" : "대천사.png"},
+                        {"name" : "모렐로노미콘", "image" : "모렐.png"},
+                        {"name" : "보석 건틀릿", "image" : "보건.png"},
+                        {"name" : "비전마법사 상징", "image" : "비전마법사.png"}
+                      ],
+    "Tear_items" : [
+                        {"name" : "여신의 눈물", "image" : "여눈.png"},
+                        {"name" : "쇼진의 창", "image" : "쇼진.png"},
+                        {"name" : "스테틱의 단검", "image" : "스태틱.png"},
+                        {"name" : "얼어붙은 심장", "image" : "얼심.png"},
+                        {"name" : "힘의 성배", "image" : "성배.png"},
+                        {"name" : "대천사의 지팡이", "image" : "대천사.png"},
+                        {"name" : "푸른 파수꾼", "image" : "블루.png"},
+                        {"name" : "구원", "image" : "구원.png"},
+                        {"name" : "정의의 손길", "image" : "정손.png"},
+                        {"name" : "아카데미 상징", "image" : "아카데미.png"}
+                      ],
+    "Belt_items" : [
+                        {"name" : "거인의 허리띠", "image" : "자벨.png"},
+                        {"name" : "지크의 전령", "image" : "지크.png"},
+                        {"name" : "즈롯 차원문", "image" : "즈롯.png"},
+                        {"name" : "태양 불꽃 망토", "image" : "태불망.png"},
+                        {"name" : "서풍", "image" : "서풍.png"},
+                        {"name" : "모렐로노미콘", "image" : "모렐.png"},
+                        {"name" : "구원", "image" : "구원.png"},
+                        {"name" : "워모그의 갑옷", "image" : "워모그.png"},
+                        {"name" : "밴시의 발톱", "image" : "벤시.png"},
+                        {"name" : "화학공학 상징", "image" : "화공.png"}
+                      ],
+    "Gloves_items" : [
+                        {"name" : "연습용 장갑", "image" : "장갑.png"},
+                        {"name" : "무한의 대검", "image" : "무대.png"},
+                        {"name" : "최후의 속삭임", "image" : "라위.png"},
+                        {"name" : "침묵의 장막", "image" : "침장.png"},
+                        {"name" : "수은", "image" : "수은.png"},
+                        {"name" : "보석 건틀릿", "image" : "보건.png"},
+                        {"name" : "정의의 손길", "image" : "정손.png"},
+                        {"name" : "밴시의 발톱", "image" : "벤시.png"},
+                        {"name" : "도둑의 장갑", "image" : "도장.png"},
+                        {"name" : "암살자 상징", "image" : "암살자.png"}
+                      ],
+    "Spatula_items" : [
+                        {"name" : "뒤집개", "image" : "뒤집개.png"},
+                        {"name" : "제국 상징", "image" : "제국.png"},
+                        {"name" : "도전자 상징", "image" : "도전자.png"},
+                        {"name" : "범죄조직 상징", "image" : "범죄조직.png"},
+                        {"name" : "돌연변이 상징", "image" : "돌연변이.png"},
+                        {"name" : "비전마법사 상징", "image" : "비전마법사.png"},
+                        {"name" : "아카데미 상징", "image" : "아카데미.png"},
+                        {"name" : "화학공학 상징", "image" : "화공.png"},
+                        {"name" : "암살자 상징", "image" : "암살자.png"},
+                        {"name" : "전략가의 왕관", "image" : "포오네.png"}
+                      ]
+}
